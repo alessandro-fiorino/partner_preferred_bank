@@ -1,0 +1,85 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_preferred_bank
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-03 19:37+0000\n"
+"PO-Revision-Date: 2021-10-03 21:40+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: it\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: partner_preferred_bank
+#: model:ir.model,name:partner_preferred_bank.model_res_partner
+msgid "Contact"
+msgstr "Contatto"
+
+#. module: partner_preferred_bank
+#: model:ir.model.fields,field_description:partner_preferred_bank.field_res_partner__ba_current_company_partner_id
+#: model:ir.model.fields,field_description:partner_preferred_bank.field_res_users__ba_current_company_partner_id
+msgid "Current company partner"
+msgstr "Contatto azienda corrente"
+
+#. module: partner_preferred_bank
+#: model:ir.model.fields,field_description:partner_preferred_bank.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nome visualizzato"
+
+#. module: partner_preferred_bank
+#: model:ir.model.fields,field_description:partner_preferred_bank.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: partner_preferred_bank
+#: model:ir.model.fields,field_description:partner_preferred_bank.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Ultima modifica il"
+
+#. module: partner_preferred_bank
+#: model:ir.model.fields,field_description:partner_preferred_bank.field_res_partner__property_default_outgoing_bank_account_id
+#: model:ir.model.fields,field_description:partner_preferred_bank.field_res_users__property_default_outgoing_bank_account_id
+msgid "Predefined BA for making payments"
+msgstr "Conto predefinito per effettuare pagamenti"
+
+#. module: partner_preferred_bank
+#: model:ir.model.fields,field_description:partner_preferred_bank.field_res_partner__property_default_incoming_bank_account_id
+#: model:ir.model.fields,field_description:partner_preferred_bank.field_res_users__property_default_incoming_bank_account_id
+msgid "Predefined BA for receiving payments"
+msgstr "Conto predefinito per ricevere pagamenti"
+
+#. module: partner_preferred_bank
+#: model_terms:ir.ui.view,arch_db:partner_preferred_bank.preferred_ba_partner_form
+msgid "Predefined Bank Accounts"
+msgstr "Conti Correnti Predefiniti"
+
+#. module: partner_preferred_bank
+#: model:ir.model.fields,field_description:partner_preferred_bank.field_res_partner__property_default_br_bank_account_id
+#: model:ir.model.fields,field_description:partner_preferred_bank.field_res_users__property_default_br_bank_account_id
+msgid "Predefined customer BA for BR payments"
+msgstr "Conto cliente predefinito per RIBA"
+
+#. module: partner_preferred_bank
+#: model:ir.model.fields,help:partner_preferred_bank.field_res_partner__property_default_br_bank_account_id
+#: model:ir.model.fields,help:partner_preferred_bank.field_res_users__property_default_br_bank_account_id
+msgid "Preferred bank account of the customer to be used for BR payments"
+msgstr "Conto corrente del cliente predefinito per l'uso in pagamenti RIBA"
+
+#. module: partner_preferred_bank
+#: model:ir.model.fields,help:partner_preferred_bank.field_res_partner__property_default_outgoing_bank_account_id
+#: model:ir.model.fields,help:partner_preferred_bank.field_res_users__property_default_outgoing_bank_account_id
+msgid "Preferred bank account to be used for making payments to suppliers"
+msgstr "Conto corrente predefinito per effettuare i pagamenti al fornitore"
+
+#. module: partner_preferred_bank
+#: model:ir.model.fields,help:partner_preferred_bank.field_res_partner__property_default_incoming_bank_account_id
+#: model:ir.model.fields,help:partner_preferred_bank.field_res_users__property_default_incoming_bank_account_id
+msgid "Preferred bank account to be used for receiving payments from customers"
+msgstr "Conto corrente predefinito per ricevere i pagamenti dal cliente"
